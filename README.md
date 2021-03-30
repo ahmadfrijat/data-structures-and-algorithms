@@ -21,3 +21,4 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 | -------------------------------------------------------------------- | ------------------------------------- |
 | - [array-reverse](challenges/arrayReverse/readme.md)                 |  Reverse array                        |
 | - [array-shift](challenges/arrayShift/readme.md)                     |  Shift Array                          |
+| - [array-shift](challenges/arrayBinarySearch/readme.md)              |  Binary Search Array                  |
