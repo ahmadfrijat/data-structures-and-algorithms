@@ -12,4 +12,4 @@ Define a method called toString which takes in no arguments and returns a string
 * Define a method called insert , Define a method called includes and Define a method called toString
 ## Solution
 <!-- Embedded whiteboard image -->
-![whiteboard-image](img/linked-list.PNG)
+![whiteboard-image](https://raw.githubusercontent.com/ahmadfrijat/data-structures-and-algorithms/master/img/linked-list.PNG)
