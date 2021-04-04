@@ -273,16 +273,16 @@ describe('Testing challenge 5', () => {
   });
 });
 
-describe('Testing challenge 6', () => {
-  test('It should sort strings by length', () => {
-    const ans = sortByLength(['alphabet', 'Zebra', 'Alphabet', 'carrot']);
-    expect(ans.slice(0,2)).toStrictEqual(['Zebra', 'carrot']);
-    expect(ans.slice(2,4)).toEqual(expect.arrayContaining(['Alphabet', 'alphabet']));
-    expect(sortByLength(['a', 'bc', ''])).toStrictEqual(['', 'a', 'bc']);
-    expect(sortByLength(['a'])).toStrictEqual(['a']);
-    expect(sortByLength([])).toStrictEqual([]);
-  });
-});
+// describe('Testing challenge 6', () => {
+//   test('It should sort strings by length', () => {
+//     const ans = sortByLength(['alphabet', 'Zebra', 'Alphabet', 'carrot']);
+//     expect(ans.slice(0,2)).toStrictEqual(['Zebra', 'carrot']);
+//     expect(ans.slice(2,4)).toEqual(expect.arrayContaining(['Alphabet', 'alphabet']));
+//     expect(sortByLength(['a', 'bc', ''])).toStrictEqual(['', 'a', 'bc']);
+//     expect(sortByLength(['a'])).toStrictEqual(['a']);
+//     expect(sortByLength([])).toStrictEqual([]);
+//   });
+// });
 
 xdescribe('Testing challenge 7', () => {
   test('It should alphabetize without regard to capitalization', () => {
