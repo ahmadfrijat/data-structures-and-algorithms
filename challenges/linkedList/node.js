@@ -1,9 +1,9 @@
 'use stricts';
 
 class Node {
-  constructor(value){
-    this.value = value;
-    this.next = null;
+  constructor(data, next = null) {
+    this.head = data;
+    this.next = next;
   }
 }
 
