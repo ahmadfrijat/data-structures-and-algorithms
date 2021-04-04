@@ -27,7 +27,7 @@ Define a method called toString which takes in no arguments and returns a string
 * Define a method called append , Define a method called insertBefore and Define a method called insertAfter
 ## Solution
 <!-- Embedded whiteboard image -->
-![whiteboard-image](img/linked-list-2.PNG)
+![whiteboard-image](https://raw.githubusercontent.com/ahmadfrijat/data-structures-and-algorithms/master/img/linked-list-2.PNG)
 
 
 
