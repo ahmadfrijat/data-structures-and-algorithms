@@ -10,4 +10,4 @@
 * make a function that takes in an array and a value, inserts the value into the middle of the array, and returns that array. the function first finds the middle of the array and defines a new array. with two parameters (arr, val) the for loop checks the iteration i against the "middle" variable and when it matches it inserts the val there and returns the new array.
 ## Solution
 <!-- Embedded whiteboard image -->
-![whiteboard-image](https://raw.githubusercontent.com/ahmadfrijat/data-structures-and-algorithms/master/img/reverse%20array.png)
+![whiteboard-image](https://github.com/ahmadfrijat/data-structures-and-algorithms/blob/master/img/shift.png)

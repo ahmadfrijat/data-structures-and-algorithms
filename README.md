@@ -14,4 +14,12 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 
 - Please follow the instructions specific to your 401 language, which can be found in the directory below, matching your course.
 
-[array-reverse](challenges/arrayReverse/readme.md)
+
+
+
+|                                  Table of Contents                   |                                       |
+| -------------------------------------------------------------------- | ------------------------------------- |
+| - [array-reverse](challenges/arrayReverse/readme.md)                 |  Reverse array                        |
+| - [array-shift](challenges/arrayShift/readme.md)                     |  Shift Array                          |
+| - [Binary-Search](challenges/arrayBinarySearch/readme.md)            |  Binary Search Array                  |
+| - [Linked-List](challenges/linkedList/readme.md)                     |  Linked List                          |

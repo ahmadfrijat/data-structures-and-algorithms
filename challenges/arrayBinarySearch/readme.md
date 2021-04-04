@@ -9,4 +9,4 @@
 * BinarySearch function take 2 parameters . it loop through each element in a for loop checking to see if the element currently iterated on equals the second parameter value. if it does, pass the index of that value, if it's not , return -1
 ## Solution
 <!-- Embedded whiteboard image -->
-![whiteboard-image](img/binary-array.png)
+![whiteboard-image](https://raw.githubusercontent.com/ahmadfrijat/data-structures-and-algorithms/master/img/binary-array.png)

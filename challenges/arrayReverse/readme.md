@@ -11,4 +11,6 @@
 * Iterate the array with a for loop, each time pushing the new value to the new array.
 ## Solution
 <!-- Embedded whiteboard image -->
+
 ![whiteboard-image](https://raw.githubusercontent.com/ahmadfrijat/data-structures-and-algorithms/master/img/reverse%20array.png)
+
