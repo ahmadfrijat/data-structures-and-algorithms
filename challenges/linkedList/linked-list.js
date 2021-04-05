@@ -3,115 +3,121 @@ const Node = require('../linkedList/node.js');
 
 
 class LinkedList {
-    constructor() {
-        this.head = null;
-        this.length = 0;
+  constructor() {
+    this.head = null;
+  }
+  // insert() method
+  insert(value) {
+    let node = new Node(value);
+    if (!this.head) {
+      this.head = node;
+    } else {
+      node.next = this.head;
+      this.head = node;
+    }
+  }
+  // includes() method
+  includes(value) {
+    let currentNode = this.head;
+    while (currentNode) {
+      if (currentNode.value === value) {
+        return true;
+      } else {
+        currentNode = currentNode.next;
       }
-    
-      insert(data) {
-        this.head = new Node(data, this.head);
-        this.length++;
+    }
+    return false;
+  }
+  // toSrting() method
+  toSrting() {
+    let currentNode = this.head;
+    let listOfString;
+    while (currentNode) {
+      listOfString.push(currentNode.value);
+      currentNode = currentNode.next;
+    }
+    return listOfString.join(' ');
+  }
+  // append() method
+  append(value) {
+    let node = new Node(value);
+    if (!this.head) {
+      this.head = node;
+    } else {
+      let currentNode = this.head;
+      while (currentNode.next) {
+        currentNode = currentNode.next;
       }
-      includes(data) {
-        let current = this.head;
-    
-        while (current) {
-          if (current.head === data) return true;
-          current = current.next;
+      currentNode.next = new Node(value);
+    }
+    return this;
+  }
+  // insertBefore() method
+  insertBefore(value, newVal) {
+    if (!this.head) {
+      this.head = new Node(newVal);
+    } else {
+      let currentNode = this.head;
+      let afterNode = null;
+      while (currentNode.next) {
+        if (currentNode.next.value === value) {
+          afterNode = currentNode.next;
+          let newNode = new Node(newVal);
+          newNode.next = afterNode;
+          currentNode.next = newNode;
+          return;
         }
-        return false;
+        currentNode = currentNode.next;
       }
-      append(data) {
-        let node = new Node(data);
-        let current;
-    
-        if (!this.head) {
-          this.head = node;
-        } else {
-          current = this.head;
-    
-          while (current.next) {
-            current = current.next;
-          }
-          current.next = node;
-        }
-    
-        this.length++;
+    }
+    return this;
+  }
+  // insertAfter() method
+  insertAfter(value, newVal) {
+    let node = new Node(value);
+    if (!this.head) {
+      this.head = node;
+    }
+    let currentNode = this.head;
+    let afterNode = null;
+    while (currentNode) {
+      if (currentNode.value === value) {
+        afterNode = currentNode.next;
+        let newNode = new Node(newVal);
+        newNode.next = afterNode;
+        currentNode.next = newNode;
+        return;
       }
-      insertBefore(data, newData) {
-        if (!data) return;
-        let node = new Node(newData);
-        let current, previous;
-    
-        if (!this.head) {
-          this.head = node;
-        } else {
-          current = this.head;
-    
-          while (current.head !== data) {
-            previous = current;
-            current = current.next;
-          }
-    
-          if (current === this.head) {
-            previous = current;
-            node.next = previous;
-            this.head = node;
-          } else {
-            node.next = current;
-            previous.next = node;
-          }
-        }
-    
-        this.size++;
+      currentNode = currentNode.next;
+    }
+    return this;
+  }
+  // llkthFromEnd() method
+  llkthFromEnd(k) {
+    let counter = this.head;
+    let nodeContent = null;
+    let nodeContentExist = false;
+    let countdown = k;
+
+    if (k < 0) return 'Exception';
+
+    while (counter) {
+      if (countdown === 0) {
+        countdown--;
+        nodeContent = this.head;
+        nodeContentExist = true;
       }
-      insertAfter(data, newData) {
-        if (!data) return;
-        let node = new Node(newData);
-        let current, previous;
-    
-        if (!this.head) {
-          this.head = node;
-        } else {
-          current = this.head;
-    
-          while (current.head !== data) {
-            previous = current;
-            current = current.next;
-          }
-    
-          if (current === this.head) {
-            previous = current;
-            current = current.next;
-            node.next = current;
-            previous.next = node;
-          } else {
-            previous = current;
-            current = current.next;
-            node.next = current;
-            previous.next = node;
-          }
-        }
-    
-        this.length++;
+      if (nodeContentExist && counter.next !== null) {
+        counter = counter.next;
+        nodeContent = nodeContent.next;
+      } else {
+        counter = counter.next;
       }
-      toString() {
-        let current = this.head;
-        let list;
-    
-        while (current) {
-          if (!list) {
-            list = current.head;
-            current = current.next;
-          } else {
-            list += ` -> ${current.head}`;
-            current = current.next;
-          }
-        }
-    
-        list += ` -> ${current}`;
-        return list;
-      }
+
+      if (countdown > 0) countdown--;
+    }
+    return nodeContentExist ? nodeContent.value : 'Exception';
+  }
 }
 
 module.exports = LinkedList;
