@@ -23,3 +23,4 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 | - [array-shift](challenges/arrayShift/readme.md)                     |  Shift Array                          |
 | - [Binary-Search](challenges/arrayBinarySearch/readme.md)            |  Binary Search Array                  |
 | - [Linked-List](challenges/linkedList/readme.md)                     |  Linked List                          |
+| - [Linked-List](challenges/llZip/readme.md)                          |  zip Lists                            |
