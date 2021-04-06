@@ -118,6 +118,15 @@ class LinkedList {
     }
     return nodeContentExist ? nodeContent.value : 'Exception';
   }
+  show(){
+    let array = [];
+    let currentNode = this.head;
+    while( currentNode !== null ){
+      array.push(currentNode.value);
+      currentNode = currentNode.next;
+    }
+    return array.join(' ');
+  }
 }
 
 module.exports = LinkedList;
