@@ -109,8 +109,6 @@ describe('Queue', () => {
       newQueue.enqueue('hussein');
       newQueue.enqueue('abid');
       newQueue.enqueue('alfrijat');
-    //   expect(newQueue.back.value).toBe('alfrijat');
-    //   expect(newQueue.peek()).toBe('ahmad');
       newQueue.dequeue();
       newQueue.dequeue();
       newQueue.dequeue();
