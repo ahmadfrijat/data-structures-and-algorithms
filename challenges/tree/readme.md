@@ -55,7 +55,7 @@
 ## Solution
 <!-- Embedded whiteboard image -->
 
-![whiteboard-image](img/breadth.PNG)
+![whiteboard-image](https://raw.githubusercontent.com/ahmadfrijat/data-structures-and-algorithms/master/img/breadth.PNG)
 
 
 
