@@ -10,4 +10,4 @@
 * Write a function called zipLists
 ## Solution
 <!-- Embedded whiteboard image -->
-![whiteboard-image](../img/ziplists.PNG)
+![whiteboard-image](https://raw.githubusercontent.com/ahmadfrijat/data-structures-and-algorithms/master/img/ziplists.PNG)

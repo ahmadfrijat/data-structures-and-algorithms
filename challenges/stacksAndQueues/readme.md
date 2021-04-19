@@ -11,4 +11,4 @@
 * Write a Stack and Queue
 ## Solution
 <!-- Embedded whiteboard image -->
-![whiteboard-image](..img/slackAndQueue.PNG)
+![whiteboard-image](https://raw.githubusercontent.com/ahmadfrijat/data-structures-and-algorithms/master/img/slackAndQueue.PNG)

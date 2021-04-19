@@ -14,4 +14,4 @@
 * Write a multiBracketValidation(string)
 ## Solution
 <!-- Embedded whiteboard image -->
-![whiteboard-image](img/bracketValidation.PNG)
+![whiteboard-image](https://raw.githubusercontent.com/ahmadfrijat/data-structures-and-algorithms/master/img/bracketValidation.PNG)

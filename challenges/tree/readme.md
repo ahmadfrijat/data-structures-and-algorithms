@@ -35,7 +35,8 @@
 ## Solution
 <!-- Embedded whiteboard image -->
 
-![whiteboard-image](img/maxValue.PNG)
+
+![whiteboard-image](https://raw.githubusercontent.com/ahmadfrijat/data-structures-and-algorithms/master/img/maxValue.PNG)
 
 
 
@@ -55,3 +56,6 @@
 <!-- Embedded whiteboard image -->
 
 ![whiteboard-image](img/breadth.PNG)
+
+
+
