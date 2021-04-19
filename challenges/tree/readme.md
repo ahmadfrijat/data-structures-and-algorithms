@@ -35,4 +35,27 @@
 ## Solution
 <!-- Embedded whiteboard image -->
 
+
 ![whiteboard-image](https://raw.githubusercontent.com/ahmadfrijat/data-structures-and-algorithms/master/img/maxValue.PNG)
+
+
+
+
+# breadth first Traversal
+<!-- Short summary or background information -->
+
+
+## Challenge
+<!-- Description of the challenge -->
+* Write a breadth first traversal method which takes a Binary Tree as its unique input. Without utilizing any of the built-in methods available to your language, traverse the input tree using a Breadth-first approach, and return a list of the values in the tree in the order they were encountered.
+
+## Approach & Efficiency
+<!-- What approach did you take? Why? What is the Big O space/time for this approach? -->
+* Create a breadthfirstTraversal method .
+## Solution
+<!-- Embedded whiteboard image -->
+
+![whiteboard-image](img/breadth.PNG)
+
+
+

@@ -61,6 +61,34 @@ class BinaryTree {
         }
         return maxValue;
     }
+     // breadthfirstTraversal
+    breadthfirstTraversal(){
+
+        let traverse = [];
+        let store = [];
+
+
+        if(this.root !== null){
+          traverse.push(this.root);
+
+          while(traverse.length > 0){
+            let newNode = traverse.shift();
+            store.push(newNode.value);
+
+            if(newNode.left !== null){
+              traverse.push(newNode.left);
+            }
+            if(newNode.right !== null){
+              traverse.push(newNode.right);
+            }
+          }
+          return store;
+        }else{
+          return null;
+        } 
+    }
+
+
 
 }
 
