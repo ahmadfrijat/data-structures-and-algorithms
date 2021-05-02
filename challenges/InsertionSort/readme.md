@@ -12,4 +12,4 @@
 ## Solution
 <!-- Embedded whiteboard image -->
 
-![whiteboard-image](img/seleSort.PNG.png)
+![whiteboard-image](img/seleSort.jpg)
