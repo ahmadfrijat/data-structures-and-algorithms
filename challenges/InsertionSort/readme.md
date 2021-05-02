@@ -12,4 +12,4 @@
 ## Solution
 <!-- Embedded whiteboard image -->
 
-![whiteboard-image](img/seleSort.jpg)
+![whiteboard-image](https://raw.githubusercontent.com/ahmadfrijat/data-structures-and-algorithms/master/img/seleSort.jpg)
