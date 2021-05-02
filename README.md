@@ -29,3 +29,5 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 | - [fifoAnimalShelter](challenges/fifoAnimalShelter/readme.md)        |  fifo Animal Shelter                  |
 | - [BracketValidation](challenges/multiBracketValidation/readme.md)   |  multi Bracket Validation             |
 | - [tree](challenges/tree/readme.md)                                  |  tree                                 |
+| - [InsertionSort](challenges/InsertionSort/readme.md)                |  InsertionSort                        |
+
