@@ -12,7 +12,7 @@
 ## Solution
 <!-- Embedded whiteboard image -->
 
-![whiteboard-image](img/quickSort.PNG.png)
+![whiteboard-image](https://raw.githubusercontent.com/ahmadfrijat/data-structures-and-algorithms/master/img/quickSort.PNG.png)
 
 
 
