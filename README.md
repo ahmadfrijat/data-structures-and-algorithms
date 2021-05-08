@@ -32,6 +32,7 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 | - [InsertionSort](challenges/InsertionSort/readme.md)                |  InsertionSort                        |
 | - [mergeSort](challenges/mergeSort/readme.md)                        |  mergeSort                            |
 | - [QuickSort](challenges/QuickSort/readme.md)                        |  QuickSort                            |
+| - [hashtable](challenges/hashtable/readme.md)                        |  hashtable                            |
 
 
 
