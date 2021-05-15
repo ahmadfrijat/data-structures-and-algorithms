@@ -13,7 +13,7 @@
 ## Solution
 <!-- Embedded whiteboard image -->
 
-![whiteboard-image](../img/repeatedWord.PNG.png)
+![whiteboard-image](..../img/repeatedWord.PNG.png)
 
 
 
