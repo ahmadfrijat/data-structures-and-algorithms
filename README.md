@@ -33,8 +33,8 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 | - [mergeSort](challenges/mergeSort/readme.md)                        |  mergeSort                            |
 | - [QuickSort](challenges/QuickSort/readme.md)                        |  QuickSort                            |
 | - [hashtable](challenges/hashtable/readme.md)                        |  hashtable                            |
-| - [repeatedWord](challenges/repeatedWord/readme.md)                     |  repeatedWord                         |
-
+| - [repeatedWord](challenges/repeatedWord/readme.md)                  |  repeatedWord                         |
+| - [treeIntersection](challenges/treeIntersection/readme.md)          |  treeIntersection                     |
 
 
 
