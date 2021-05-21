@@ -35,6 +35,7 @@ Each day, you'll add one new file to this folder to do your work for the day's a
 | - [hashtable](challenges/hashtable/readme.md)                        |  hashtable                            |
 | - [repeatedWord](challenges/repeatedWord/readme.md)                  |  repeatedWord                         |
 | - [treeIntersection](challenges/treeIntersection/readme.md)          |  treeIntersection                     |
+| - [graph](challenges/graph/readme.md)                                |  graph                                |
 
 
 
